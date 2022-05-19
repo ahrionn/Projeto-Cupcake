@@ -1,0 +1,76 @@
+body{
+	background-color: #AA336A
+}
+
+h1{
+	color: whitesmoke;
+	font-family: constantia;
+	font-size: 70px;
+	text-align: center;
+	border: 15px double whitesmoke;
+	margin-top: 50px;
+	margin-bottom:20px ;
+	margin-right:220px ;
+	margin-left: 220px;
+}
+
+h2{
+	color: whitesmoke;
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+#criando{
+	margin-bottom: 20px;
+}
+
+/*------------------------------------------------------------------------------------ */
+
+/*onde colocar o "display: inline-block" ???*/
+
+#menu{
+	width: 200px;
+	margin: auto;
+	text-align: center;
+}
+
+#menu li, a{
+	color: black;
+	font-size: 18px;
+	font-family: sans-serif;
+	list-style-type: none; /*tira as bolinhas do lado dos itens*/
+	text-decoration: none; /*tira o sublinhado dos links*/
+}
+
+#menu li a:hover{
+	color: whitesmoke;
+	transition: 0.3s;
+	border-right: 2px solid whitesmoke;
+	border-left: 2px solid whitesmoke;
+	padding: 2px;
+}
+
+/*
+---------------------------------------------------------------------------------
+Botões do Menu:
+---------------------------------------------------------------------------------
+#menu {
+	list-style-type: none;
+	border: 1px solid #000; --> Cria uma caixa envolta dos elementos do Menu
+	width:  50%;
+	margin: 10px auto;
+}
+---------------------------------------------------------------------------------
+#menu li{
+	
+}
+---------------------------------------------------------------------------------
+#menu li a:link,
+#menu li a:visited{
+	
+}
+---------------------------------------------------------------------------------
